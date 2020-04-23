@@ -401,7 +401,7 @@
         scaleX = -scaleX;
       }
 
-      // matrix is singular and cannot be interpolated
+
     } else {
       // In this case the elem shouldn't be rendered, hence scale == 0
       scaleX = scaleY = skew = 0;
